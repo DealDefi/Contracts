@@ -66,13 +66,6 @@ contract ERC20Token is Ownable, ERC20Burnable {
         _mint(address(this), _amount);
     }
 
-    // /// @dev Burn tokens.
-    // ///
-    // /// @param _amount No. of tokens that need to be burn. 
-    // function burn(uint256 _amount) public {
-    //     super._burn(msg.sender, _amount);
-    // }
-
     /// @dev Used to unlock tokens, Only be called by the contract owner & also received by the owner as well.
     /// It commulate the `releaseAmount` as per the time passed and release the
     /// commulated number of tokens.
