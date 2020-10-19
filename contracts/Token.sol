@@ -9,7 +9,7 @@ contract ERC20Token is Ownable, ERC20Burnable {
     using Address for address;
 
     /// Constant that holds token distribution.
-    uint256 constant public MULTIPLIER = 10 ^ 18;
+    uint256 constant public MULTIPLIER = 10 ** 18;
     uint256 constant public TEAM_ALLOCATION = 1000000 * MULTIPLIER;
     uint256 constant public MARKETING_ALLOCATION = 1000000 * MULTIPLIER;
     uint256 constant public REWARDS_ALLOCATION = 40000000 * MULTIPLIER;

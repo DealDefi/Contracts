@@ -19,7 +19,8 @@ module.exports = {
         return wallet
       },
       network_id: '1', // Match any network id
-      gasPrice: 10000000000 // 10 gwei
+      gasPrice: 10000000000, // 10 gwei
+      skipDryRun: true
     },
     ropsten: {
       provider: () => {
@@ -32,7 +33,7 @@ module.exports = {
       network_id: '3', // Match any network id
       gas: 4500000,
       gasPrice: 150000000000,
-      dryRun: false
+      skipDryRun: true
     },
   },
   compilers: {

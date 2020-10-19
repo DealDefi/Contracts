@@ -28,7 +28,7 @@ contract PreSale is ReentrancyGuard, Ownable {
     uint256 constant public PHASE_THREE_END_TIME = 1604822400; /// Sunday, 08-Nov-20 08:00:00 UTC
     
     /// Multiplier to provide precision.
-    uint256 constant public MULTIPLIER = 10 ^ 18;
+    uint256 constant public MULTIPLIER = 10 ** 18;
 
     /// Rates for different phases of the sale.
     uint256 constant public PHASE_ONE_RATE = 13000 * MULTIPLIER;  /// i.e 13000 tokens = 1 ETH.

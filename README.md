@@ -22,5 +22,5 @@ truffle migrate
 
 # Ropsten contracts
 
-Token contract - [0xc1385730edf2Dfbbb7Aac6199D50a5D6098A3509](https://ropsten.etherscan.io/address/0xc1385730edf2Dfbbb7Aac6199D50a5D6098A3509#code)   
-PreSale contract - [0x1b74fE5A1053975e33914e41dA206D6B3112aa33](https://ropsten.etherscan.io/address/0x1b74fE5A1053975e33914e41dA206D6B3112aa33#code)    
+Token contract - [0xCEF08828CA92c7CE079b69bfa6EFf5641F612d87](https://ropsten.etherscan.io/address/0xCEF08828CA92c7CE079b69bfa6EFf5641F612d87#code)   
+PreSale contract - [0x322C846b4f0e282a0cD277e75255B8A491145243](https://ropsten.etherscan.io/address/0x322C846b4f0e282a0cD277e75255B8A491145243#code)    
