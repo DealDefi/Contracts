@@ -31,7 +31,8 @@ module.exports = {
       },
       network_id: '3', // Match any network id
       gas: 4500000,
-      gasPrice: 150000000000
+      gasPrice: 150000000000,
+      dryRun: false
     },
   },
   compilers: {
